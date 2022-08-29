@@ -1,0 +1,14 @@
+<div class="courses" >
+  <% @courses.each do |course| %>
+    <div id="course-<%=course.id%>">
+      <%= course.name %>: <%= course.student_count %>
+      <div class="students">
+        <% course.alpha_students.each do |student| %> <br>
+          <div id= "student-<%= student.id %>">
+            <%= student.name %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>

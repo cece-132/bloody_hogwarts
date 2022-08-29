@@ -85,7 +85,9 @@ I see the average age of all students.
 User Story Extension
 
 Students index page shows students in alphabetical order.
+
 Courses index page shows courses in alphabetical order.
+
 And the courses index page also shows students per course in alphabetical order.
 
 (e.g. "Defense Against the Dark Arts: 3"
